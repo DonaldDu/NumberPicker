@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -18,16 +18,16 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
 }
 
-publish {
-    userOrg = POM_DEVELOPER_ID
-    groupId = GROUP
-    artifactId = ARTIFACT_ID
-    publishVersion = VERSION_NAME
-    licences = ['Apache-2.0']
-    desc = POM_DESCRIPTION
-    website = POM_URL
-    issueTracker = ISSUE_URL
-    repository = POM_SCM_URL
-    autoPublish = false
-    dryRun = false
-}
+//publish {
+//    userOrg = POM_DEVELOPER_ID
+//    groupId = GROUP
+//    artifactId = ARTIFACT_ID
+//    publishVersion = VERSION_NAME
+//    licences = ['Apache-2.0']
+//    desc = POM_DESCRIPTION
+//    website = POM_URL
+//    issueTracker = ISSUE_URL
+//    repository = POM_SCM_URL
+//    autoPublish = false
+//    dryRun = false
+//}
